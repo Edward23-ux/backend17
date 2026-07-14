@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario Node.js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Formulario de Registro</h1>
+
+        <form id="formulario">
+
+            <label>Nombre</label>
+            <input type="text" id="nombre" required>
+
+            <label>Apellidos</label>
+            <input type="text" id="apellido" required>
+
+            <label>Correo</label>
+            <input type="email" id="correo" required>
+
+            <label>Edad</label>
+            <input type="number" id="edad" required>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
+
+        <p id="mensaje"></p>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

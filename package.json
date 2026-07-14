@@ -1,16 +1,13 @@
 {
   "name": "formulario-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Formulario simple con Node.js y Express",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.1.0"
   }
 }

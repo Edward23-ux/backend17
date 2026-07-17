@@ -29,4 +29,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: edwardiso/edwardiso-formularionode:latest
+          tags: |
+            edwardiso/edwardiso-formularionode:latest
+            edwardiso/edwardiso-formularionode:${{ github.sha }}
